@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.mainbox{
+    background-image: url("dark.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.btn_one i{
+    position: absolute;
+        left: 16px;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 700;
+        
+        line-height: 60px;
+        cursor:pointer;
+        transition: all 0.3s linear;
+    }
+.sideber_menu{
+    position: fixed;
+    left: -360p;
+    height: 100vh;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255,0.4);
+    box-shadow: 0 0 5px rgb(255, 255, 255,0.5);
+}
+.sideber_menu .logo a{
+  text-decoration: none;
+}
